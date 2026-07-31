@@ -1,13 +1,13 @@
 # Advanced-EDA-Feature-Engineering
-An internship project at Decodelable
+# An internship project at Decodelable
 <br>
 <br>
-Project Overview <br>
+# Project Overview <br>
 This project focuses on performing Exploratory Data Analysis (EDA), Data Cleaning, Outlier Detection and Feature Engineering on the Titanic dataset.
 
 The main goal is to understand the dataset, handle missing and inconsistent data, identify and remove outliners, and create meaning ful new features that can be used for further Machine Learning and Data Science tasks.
 <br>
-Objectives <br>
+# Objectives <br>
 The main objectives of this project are : 
 o Load and inspect the Titanic dataset.
 o Understand the structure and characteristics of the data.
@@ -20,21 +20,21 @@ o Create new meaningful features.
 o Save the cleaned dataset as a CSV.
 <br>
 
-Technologies and Libraries used <br>
+# Technologies and Libraries used <br>
 The project is developed using Python.
 <br>
-Libraries <br>
+# Libraries <br>
 o Pandas - Data manipulation and analysis
 o NumPY - Numerical operation and feature creation
 o Matplotlib - Data visualization
 o Seaborn - Statistical visualization
 <br>
 
-Installation<br>
+# Installation<br>
 Install the required libraries using : <br>
 pip install pandas numpy matplotlib seaborn
 <br>
-Dataset <br>
+# Dataset <br>
 The project uses the Titanic Dataset, Which contains information about passengers who travelled on the Titanic.
 <br>
 
@@ -52,7 +52,7 @@ Ticket             Ticket number <br>
 Fare               Cabin number <br>
 Embarked           Port where the passenger boarded <br>
 <br>
-Project workflow <br>
+# Project workflow <br>
 1. Load the Dataset <br>
 The Titanic dataset is loaded using Pandas : <br>
 After loading the dataset, the first 10 records are displayed to understand its structure.
@@ -67,11 +67,11 @@ data.info() <br>
 data.describe() <br>
 data.dtypes <br>
 these help us understand : <br>
-o Number of rows and columns <br>
-o Column names <br>
-o Data types <br>
-o Statistical information <br>
-o Overall structure of the dataset <br>
+  o Number of rows and columns <br>
+  o Column names <br>
+  o Data types <br>
+  o Statistical information <br>
+  o Overall structure of the dataset <br>
 <br>
 <br>
 3. Check Missing Values <br>
@@ -143,7 +143,7 @@ data = data[
   ]<br>
   <br>
 
-Feature Engineering <br>
+# Feature Engineering <br>
 Feature engineering is the process of creating new useful variables from existing data.<br>
 
 Three new features were created.<br>
@@ -170,16 +170,16 @@ Interpretation:
 1 → Passenger was travelling alone
 0 → Passenger was not travelling alone
 <br>
-Title
+# Title
 <br>
 The Title feature attempts to extract a passenger's title from their name.
 <br>
 Examples of titles include:
 <br>
-Mr
-Mrs
-Miss
-Dr
+Mr<br>
+Mrs<br>
+Miss<br>
+Dr<br>
 <br>
 The feature is created using:
 <br>
@@ -200,7 +200,7 @@ data.to_csv(
 <br>
 The cleaned dataset can now be used for further analysis or machine learning.
 <br>
-Final Dataset
+# Final Dataset
 <br>
 The final dataset contains the original useful features along with newly engineered features:
 <br>
@@ -214,20 +214,20 @@ print(data.shape)
 <br>
 <br>
 
-Project Structure
+# Project Structure
 <br>
 A recommended project structure is:
 <br>
-Advanced EDA & Feature Engineering/
-│
-├── Titanic-Dataset.csv
-├── main.py
-├── cleaned_titanic_dataset.csv
-└── README.md
+Advanced EDA & Feature Engineering/<br>
+│<br>
+├── Titanic-Dataset.csv<br>
+├── main.py<br>
+├── cleaned_titanic_dataset.csv<br>
+└── README.md<br>
 <br>
 <br>
 
-How to Run the Project
+# How to Run the Project
 <br>
 1. Clone or download the project<br>
 
@@ -245,7 +245,7 @@ inside the project folder. <br>
 4. Run the Python program<br>
 python main.py<br>
 
-The program will:<br>
+# The program will:<br>
 
 o Load the Titanic dataset.<br>
 o Display dataset information.<br>
