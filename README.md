@@ -230,8 +230,7 @@ Advanced EDA & Feature Engineering/<br>
 # How to Run the Project
 <br>
 1. Clone or download the project<br>
-
-Place the project folder on your computer.<br>
+git clone : https://github.com/itzkanta/Advanced-EDA-Feature-Engineering.git <br>
 2. Install the required libraries<br
 pip install pandas numpy matplotlib seaborn<br>
 3. Make sure the dataset is available<br>
@@ -258,4 +257,4 @@ o Display visualizations.<br>
 o Save the cleaned dataset.<br>
 <br>
 <br>
-Author : Kanta Chaudhary
+#Author : Kanta Chaudhary
