@@ -1,7 +1,6 @@
 # Advanced EDA Feature Engineering
 # An internship project
 <br>
-<br>
 # Project Overview <br>
 This project focuses on performing Exploratory Data Analysis (EDA), Data Cleaning, Outlier Detection and Feature Engineering on the Titanic dataset.
 
@@ -245,7 +244,6 @@ inside the project folder. <br>
 python main.py<br>
 
 # The program will:<br>
-
 o Load the Titanic dataset.<br>
 o Display dataset information.<br>
 o Check missing values and duplicates.<br>
@@ -260,4 +258,4 @@ o Save the cleaned dataset.<br>
 #Author : Kanta Chaudhary
 <br>
 Aspiring Data Scientist | Python Enthusiast | Learning Data Science through hands-on projects and sharing my journey on GitHub.<br>
-Thank you 
+Thank you !
