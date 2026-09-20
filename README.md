@@ -114,9 +114,9 @@ def detect_outlier_iqr(column) : <br>
    lower_bound = Q1 - 1.5 * IQR <br>
    upper_bound = Q3 + 1.5 * IQR <br>
 
-   outliers = column [
-     (column < lower_bound) |
-     (column > upper_bound)
+   outliers = column [ <br>
+     (column < lower_bound) |<br>
+     (column > upper_bound)<br>
    ]
    <br>
    print(f'{column} : {len(outliers)}')
@@ -166,8 +166,8 @@ data["IsAlone"] = np.where(
 <br>
 Interpretation:
 <br>
-1 → Passenger was travelling alone
-0 → Passenger was not travelling alone
+1 → Passenger was travelling alone<br>
+0 → Passenger was not travelling alone<br>
 <br>
 # Title
 <br>
