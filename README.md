@@ -136,10 +136,10 @@ Q3 = data["Fare"].quantile(0.75)<br>
 IQR = Q3 - Q1<br>
 lower_bound = Q1 - 1.5 * IQR <br>
 upper_bound = Q3 + 1.5 * IQR <br>
-data = data[ 
-  (data["Fare"] >= lower_bound) & 
-  (data["Fare"] <= upper_bound)
-  ]<br>
+data = data[ <br>
+  (data["Fare"] >= lower_bound) & <br>
+  (data["Fare"] <= upper_bound)<br>
+  ]
   <br>
 
 # Feature Engineering <br>
