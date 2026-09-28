@@ -38,7 +38,7 @@ The project uses the Titanic Dataset, Which contains information about passenger
 <br>
 
 Some important colimns include <br>
-Column<t>             Description<br>
+Column             Description<br>
 PassengerId        Unique ID of each passenger <br>
 Survived           Whether the passenger survived <br>
 Pclass             Passenger class <br>
